@@ -1,0 +1,14 @@
+{
+  "name": "RigUp_AML_Translater",
+  "version": "0.0.1",
+  "dependencies": {
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "mock-browser": "0.92.12"
+  },
+  "scripts": {
+    "test": "node ./aml_tester.js ./aml_translate",
+    "start": "node ./aml_tester.js ./aml_translate"
+  }
+}
